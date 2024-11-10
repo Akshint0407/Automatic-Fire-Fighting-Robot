@@ -36,8 +36,7 @@ This project is an Arduino-based firefighting robot designed to detect and respo
 5. **Line Following**: Line-following sensors keep the robot on a designated path, guiding it to follow a pre-defined route if needed.
 
 ## Circuit Diagram
-*(Add a link or image of the circuit diagram here if possible)*
-
+(https://github.com/Akshint0407/Automatic-Fire-Fighting-Robot/blob/main/fire-fighting%20diagram.jpg)
 ## Installation
 
 1. **Arduino IDE**: Download and install the [Arduino IDE](https://www.arduino.cc/en/software) if you haven't already.
