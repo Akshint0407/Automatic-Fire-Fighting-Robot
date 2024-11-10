@@ -1,0 +1,47 @@
+## Requirements
+
+Below is a list of all components needed to build this firefighting robot, along with brief descriptions of each and their uses in the project.
+
+| Component           | Description                                                                                           | Quantity | Notes & Use                                                                                 |
+|---------------------|-------------------------------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------|
+| Arduino Uno         | Microcontroller board based on the ATmega328P, used to control all sensors and actuators in the robot | 1        | Acts as the brain of the robot, executing the code and controlling all connected components |
+| L298N Motor Driver  | Dual H-Bridge motor driver module, allows bidirectional control for two motors                        | 1        | Controls both the left and right motors for movement                                        |
+| DC Motors           | Standard DC motors (6V or 12V) for driving the robot wheels                                           | 2        | Provides forward, backward, and turning motion                                              |
+| Servo Motor         | Small servo motor (SG90 or similar) to rotate the ultrasonic sensor for obstacle scanning             | 1        | Rotates the ultrasonic sensor for 180-degree obstacle detection                             |
+| Ultrasonic Sensor   | HC-SR04 ultrasonic distance sensor for measuring the distance to obstacles                            | 1        | Detects obstacles in the path and surroundings of the robot                                 |
+| Flame Sensor        | IR-based flame sensor module, used to detect flames                                                   | 1        | Detects the presence of fire or flames                                                      |
+| Water Pump Module   | Mini submersible DC pump, used to pump water for extinguishing flames                                 | 1        | Activates to extinguish detected flames                                                     |
+| Relay Module        | 1-channel relay to control the water pump on/off state                                                | 1        | Acts as a switch for controlling the water pump                                             |
+| Line Follower Sensors | Infrared-based sensors for line detection (e.g., TCRT5000 module)                                   | 2        | Detects lines on the ground to assist in navigation                                         |
+| Wheels              | Standard wheels compatible with DC motors                                                             | 2        | Used to provide movement for the robot                                                     |
+| Battery Pack        | 9V or 12V rechargeable battery pack to power the Arduino and motors                                   | 1        | Supplies power to the robot                                                                 |
+| Jumper Wires        | Male-to-male and male-to-female wires for connecting components                                      | -        | Used to connect all components to the Arduino and motor driver                              |
+| Breadboard (optional) | Breadboard for organizing and connecting components easily                                          | 1        | Makes wiring and testing easier (optional but recommended)                                  |
+
+### Component Descriptions and Roles:
+
+1. **Arduino Uno**: The main controller that processes data from the sensors and controls the motors, servo, and water pump.
+2. **L298N Motor Driver**: This module controls the two DC motors connected to the wheels, allowing the robot to move forward, backward, and turn.
+3. **DC Motors**: Provide the actual movement for the robot, allowing it to navigate towards the flame and avoid obstacles.
+4. **Servo Motor**: The servo motor is used to rotate the ultrasonic sensor, enabling it to scan for obstacles around the robot.
+5. **Ultrasonic Sensor (HC-SR04)**: Measures the distance to obstacles, allowing the robot to detect and avoid obstacles while navigating.
+6. **Flame Sensor**: Detects flames in the surroundings. Once a flame is detected, the robot activates the water pump.
+7. **Water Pump Module**: Pumps water through the nozzle to extinguish flames once they are detected.
+8. **Relay Module**: Acts as a switch to turn the water pump on and off based on signals from the Arduino.
+9. **Line Follower Sensors**: Help in guiding the robot along pre-defined paths or lines, useful if the robot needs to follow a specific route.
+10. **Wheels**: Connected to the DC motors, allowing the robot to move in different directions.
+11. **Battery Pack**: Supplies power to the Arduino, motors, and sensors. Use a 9V or 12V battery, depending on the motor specifications.
+12. **Jumper Wires**: Used to connect the components with the Arduino board.
+13. **Breadboard (optional)**: Helpful for organizing and testing connections before soldering.
+
+> **Note:** Ensure all components are compatible with each other in terms of voltage and current specifications. Double-check the pin configurations for each component before wiring.
+
+---
+
+### Purchasing Tips
+
+- You can find these components on [Robu.in](https://robu.in/product/cligo-smart-robot-car-kit-4wd-for-kids/), an electronics retailer in India.
+- For consistent performance, use high-quality jumper wires and secure connectors.
+- Make sure to purchase the correct type of Arduino board (Arduino Uno) and verify the specifications of the motor driver and relay module for compatibility with your DC motors and pump.
+
+By following the component list and instructions, you should have everything you need to build the firefighting robot. Happy building!
