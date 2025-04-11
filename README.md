@@ -74,8 +74,8 @@ This project is an Arduino-based firefighting robot designed to detect and respo
    - Verify that the battery or power source has enough power to drive the motors.
 
 ## Code
-The code for this project is provided in the [main `.ino` file](./Firefighting_Robot.ino).
+The code for this project is provided in the [main.ino file](./Firefighting_Robot.ino).
 
 ## License
-This project is open-source and available for modification and reuse under the MIT License.
+This project is open-source and available for modification and reuse under the [MIT License](LICENSE.txt).
 
